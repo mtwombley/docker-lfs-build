@@ -4,13 +4,13 @@ cd $LFS/sources
 
 echo "Downloading LFS packages.."
 echo "Getting wget-list.."
-wget --timestamping http://www.linuxfromscratch.org/lfs/view/8.3/wget-list
+wget --timestamping http://www.linuxfromscratch.org/lfs/downloads/stable-systemd/wget-list
 
 echo "Getting packages.."
 wget --timestamping --continue --input-file=wget-list
 
 echo "Getting md5.."
-wget --timestamping http://www.linuxfromscratch.org/lfs/downloads/8.3/md5sums
+wget --timestamping http://www.linuxfromscratch.org/lfs/downloads/stable-systemd/md5sums
 
 echo "Check hashes.."
 md5sum -c md5sums
