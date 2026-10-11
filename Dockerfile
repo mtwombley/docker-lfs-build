@@ -2,7 +2,7 @@ FROM debian:9
 
 # image info
 LABEL description="Automated LFS build"
-LABEL version="8.3"
+LABEL version="13.1"
 LABEL maintainer="paul@drteam.rocks"
 
 # LFS mount point
