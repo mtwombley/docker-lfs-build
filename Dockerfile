@@ -1,4 +1,4 @@
-FROM debian:9
+FROM ubuntu:22.04
 
 # image info
 LABEL description="Automated LFS build"
